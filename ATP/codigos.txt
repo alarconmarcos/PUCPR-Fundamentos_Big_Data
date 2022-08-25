@@ -1,0 +1,52 @@
+Resposta Informacao1:
+
+[marcos.alarcon@ead-bigdata01 informacao1]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Australia	307522
+
+
+Resposta Informacao2:
+
+[marcos.alarcon@ead-bigdata01 informacao2]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Woven cotton fabric, > 200g/m2, dyed, nes	110
+
+
+Resposta Informacao3:
+
+Obs: O conteúdo do arquivo part-r00000 já relaciona todos os anos com a quantidade de transações comerciais por ano, porém o ano com mais trasações comerciais foi:
+
+[marcos.alarcon@ead-bigdata01 informacao3]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+2006	378065
+
+
+Resposta Informacao4:
+
+[marcos.alarcon@ead-bigdata01 informacao4]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+ALL COMMODITIES	2120537935111
+
+
+Resposta Informacao5:
+
+[marcos.alarcon@ead-bigdata01 informacao5]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Motorboats, other than outboard motorboats	2146192917
+
+
+Resposta Informacao6:
+
+[marcos.alarcon@ead-bigdata01 informacao6]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Copper ores and concentrates	2617023442
+
+
+Resposta Informacao7:
+
+[marcos.alarcon@ead-bigdata01 informacao7]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Oils petroleum, bituminous, distillates, except crude	1104746094644
+
+
+Resposta Informacao8:
+
+[marcos.alarcon@ead-bigdata01 informacao8]$ cat part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1
+Oils petroleum, bituminous, distillates, except crude----->2010	65002517608
+
+
+
+
